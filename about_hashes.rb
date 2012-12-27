@@ -111,6 +111,6 @@ class AboutHashes < EdgeCase::Koan
 
     assert_equal ["uno"], hash[:one]
     assert_equal ["dos"], hash[:two]
-    assert_equal nil, hash[:three]
+    assert_equal [], hash[:three]
   end
 end
